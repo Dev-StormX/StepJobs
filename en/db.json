@@ -1,14 +1,14 @@
 [
 
 {
-  "Salary": "8€ Per Hour",
+  "Salary": "â‚¬8 Per Hour",
   "Description": "Tylichtis Grill, some English, open kitchen, Athens center, Plaka",
   "Email": "No",
   "RelevantWorkExperience": "1-2 Years",
   "TimeJobKind": "Full Time",
   "NameJob": "Roaster/Roller",
   "Lang": "English",
-  "idCity": "athens"
+  "idCity": "athens",
   "City": "Athens",
   "EmploymenType": "Physical Presence",
   "Area": "Plaka",
@@ -16,5 +16,24 @@
   "Skills": "Reliability",
   "Education": "Not Required",
   "PhoneNumber": "+30 694 676 8707"
+},
+
+{
+  "Salary": "Unknown",
+  "Description": "Your mission\n\n\n\nÂ· Maintenance and care of indoor and outdoor plants (watering, fertilizing, pruning, planting/transplanting, plant protection).\n\nÂ· Diagnosis and treatment of plant diseases.\n\nÂ· Monitoring and implementation of technical works in fields and facilities (commercial spaces, residences, green projects).\n\nÂ· Guidance and support to customers on plant protection and care issues.\n\nÂ· Collaboration with the team to adhere to maintenance schedules.\n\n\n\nYour Skills and Experience\n\n\n\nÂ· 1+ years of experience in a similar role\n\nÂ· Degree in Agriculture or related field\n\nÂ· Very good knowledge of indoor and outdoor plants\n\nÂ· Good knowledge of basic diseases and plant protection\n\nÂ· Ability to perform work in a natural environment and in the field\n\nÂ· Team spirit, positive attitude and shared understanding of goals\n\nÂ· Organization and ability to work to a schedule\n\nÂ· Professionalism, consistency, creative thinking and communication skills\n\nÂ· Driving license for car and motorcycle (motorcycle)\n\nÂ· Basic knowledge of English (written and spoken)\n\n\n\nThey will be further appreciated\n\n\n\nÂ· Experience in landscaping or outdoor plant maintenance projects.\n\n\n\nWhat is it like to work at Kopria?\n\n\n\nÂ· You will have the opportunity to be part of a team that truly loves what it does, contributing to its development\n\nÂ· Creativity is an integral part of your everyday life\n\nÂ· Learning and Development â€“ you develop within an environment that encourages ambitious goals, gives room for autonomy, offering opportunities for personal and professional growth\n\nÂ· Collaboration â€“ your ideas are heard and initiatives are recognized\n\nÂ· Competitive full-time salary\n\n\n\nAs part of our respect and commitment to the diversity of our workforce, Kopria is committed to equal employment opportunities regardless of race, color, nationality, gender identity, disability, sexual orientation or religion.",
+  "Email": "No",
+  "RelevantWorkExperience": "1-2 Years",
+  "TimeJobKind": "Full Time",
+  "NameJob": "Agriculturalist",
+  "Lang": "English",
+  "idCity": "athens",
+  "City": "Athens",
+  "EmploymenType": "Physical Presence",
+  "Area": "Exarchia",
+  "KindJob": "Agriculturalists",
+  "Skills": "Not Required",
+  "Education": "Undergraduate degree",
+  "PhoneNumber": "+30 21 1113 2535"
 }
+  
 ]
