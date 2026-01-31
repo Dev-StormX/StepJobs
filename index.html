@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lite App Landing</title>
+<title>StepJobs</title>
 
 <style>
 :root{
@@ -19,7 +19,7 @@ body{
   color:var(--text);
 }
 header{
-  padding:16px;
+  padding:16px 20px;
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -28,6 +28,13 @@ header h1{
   font-size:18px;
   font-weight:600;
 }
+nav a{
+  color:var(--muted);
+  text-decoration:none;
+  margin-left:16px;
+  font-size:14px;
+}
+nav a:hover{color:var(--accent);}
 .hero{
   text-align:center;
   padding:60px 20px;
@@ -51,7 +58,7 @@ header h1{
   align-items:center;
   justify-content:center;
   color:#1a2517;
-  font-size:48px;
+  font-size:42px;
   font-weight:bold;
 }
 .hero h2{
@@ -92,11 +99,9 @@ header h1{
 }
 .card p{
   color:var(--muted);
+  line-height:1.6;
 }
-.table{
-  margin-top:20px;
-}
-.row{
+.table .row{
   display:flex;
   justify-content:space-between;
   padding:14px 0;
@@ -124,45 +129,48 @@ footer{
 <body>
 
 <header>
-  <h1>Lite App</h1>
-  <span>☰</span>
+  <h1>StepJobs</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#privacy">Privacy Policy</a>
+  </nav>
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
   <div class="badge">Latest Version • Stable</div>
-  <div class="logo">💬</div>
-  <h2>Lite Messenger</h2>
-  <p>Fast, secure and ultra-light application designed for smooth performance on all devices.</p>
+  <div class="logo">SJ</div>
+  <h2>StepJobs</h2>
+  <p>A smart and lightweight platform designed to help users explore opportunities and take the next step forward.</p>
   <a href="#" class="btn">Download Now →</a>
 </section>
 
 <section class="section">
-  <h3>Why Choose This App?</h3>
+  <h3>Why Choose StepJobs?</h3>
 
   <div class="card">
-    <h4>🛡 Protection Layer</h4>
-    <p>Enhanced security logic designed to minimize restrictions and improve reliability.</p>
+    <h4>🚀 Fast & Lightweight</h4>
+    <p>Optimized for performance with minimal resource usage.</p>
   </div>
 
   <div class="card">
-    <h4>🔒 Privacy Controls</h4>
-    <p>Advanced privacy options allowing better visibility and activity control.</p>
+    <h4>🔒 Privacy Focused</h4>
+    <p>Your data is handled carefully with modern privacy standards.</p>
   </div>
 
   <div class="card">
-    <h4>📷 Media Sharing</h4>
-    <p>Share high-quality images, videos and large files with ease.</p>
+    <h4>📈 Smart Features</h4>
+    <p>Tools designed to help you move forward efficiently.</p>
   </div>
 </section>
 
 <section class="section">
-  <h3>About This App</h3>
+  <h3>About StepJobs</h3>
 
   <div class="card table">
-    <div class="row"><span>App Name</span><strong>Lite Messenger</strong></div>
+    <div class="row"><span>App Name</span><strong>StepJobs</strong></div>
     <div class="row"><span>Version</span><strong>1.0.0</strong></div>
-    <div class="row"><span>File Size</span><strong>100 MB</strong></div>
-    <div class="row"><span>Base</span><strong>Core Engine</strong></div>
+    <div class="row"><span>File Size</span><strong>~100 MB</strong></div>
+    <div class="row"><span>Platform</span><strong>Android</strong></div>
     <div class="row"><span>Developer</span><strong>Your Name</strong></div>
     <div class="row"><span>Last Update</span><strong>2026</strong></div>
 
@@ -173,8 +181,23 @@ footer{
   </div>
 </section>
 
+<section class="section" id="privacy">
+  <h3>Privacy Policy</h3>
+
+  <div class="card">
+    <p>
+      StepJobs respects your privacy. We do not collect personal data without user consent.
+      Any information used within the app is solely for improving user experience.
+      We do not share data with third parties.
+    </p>
+    <p style="margin-top:14px;">
+      By using StepJobs, you agree to this privacy policy.
+    </p>
+  </div>
+</section>
+
 <footer>
-  © 2026 – All rights reserved
+  © 2026 StepJobs – All rights reserved
 </footer>
 
 </body>
